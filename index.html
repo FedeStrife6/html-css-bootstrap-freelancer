@@ -39,16 +39,18 @@
     </header>
 
     <!-- Begin Main -->
-      <main>
+    <main>
     <!-- Begin Jumbo -->
         <section class="ms_section_jumbo ms_primary">
           <div class="ms_jumbo"> <!-- ms= my style-->
             <div class="container">
-              <div class="ms_intro ">
+              <div class="ms_intro">
                 <img src="img/avataaars.svg">
                 <div class="ms_teaser text-center">
                   <h1>Start Bootstrap</h1>
-                  <div class="ms_star"><i class="fas fa-star"></i></div>
+                  <div class="ms_divider ms_section-star divider">
+                    <i class="fas fa-star"></i>
+                  </div>
                   <h2>graphic artist - web designer - illustrator<h2>
                 </div>
               </div>
@@ -62,42 +64,167 @@
           <div class="container">
             <div class="ms_intro">
               <h1>Portfolio</h1>
+              <div class="ms_divider ms_section-star divider">
               <div class="ms_star"><i class="fas fa-star"></i></div>
-              <hr> <!-- ???-->
+            </div>
+            <hr> <!-- ???-->
             </div>
           </div>
-        </section>
     <!-- End Portfolio -->
-      </main>
 
-        <!-- Begin About -->
-        <!-- End About -->
+    <!-- Begin griglia img -->
+          <div class="row">
+            <div class="col-xs-12 col-md-6 col-lg-4">
+              <div class="ms_portfolio_item">
+              <img src="img/cabin.png"></div>
+            </div>
 
-      <footer>
-    <!-- begin Company Info -->
-        <div class="company_info">
-          <div class="container">
+            <div class="col-xs-12 col-md-6 col-lg-4">
+              <div class="ms_portfolio_item">
+              <img src="img/cake.png"></div>
+            </div>
+
+            <div class="col-xs-12 col-md-6 col-lg-4">
+              <div class="ms_portfolio_item">
+              <img src="img/circus.png"></div>
+            </div>
+
+            <div class="col-xs-12 col-md-6 col-lg-4">
+              <div class="ms_portfolio_item">
+              <img src="img/game.png"></div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-4">
+              <div class="ms_portfolio_item">
+              <img src="img/safe.png"></div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-4">
+              <div class="ms_portfolio_item">
+              <img src="img/submarine.png"></div>
+            </div>
+          </div>
+    <!-- End griglia img -->
+        </section>
+
+    <!-- Begin About-->
+    <section id="about" class="ms_about ms_section-primary">
+        <div class="ms_wrapper-60">
+          <div class="text-center">
+            <h2>About</h2>
+            <div class="ms_divider divider">
+              <i class="fas fa-star"></i>
+              </div>
+          </div>
+          <div class="container-fluid">
             <div class="row">
-              <div class="col-xs-12 col-md-4">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </div>
+              <div class="col-xs-12 col-md-6">
+                <div class="ms_about_text">
+                  Freelancer is a free bootstrap tgeme created by Start Bootstrap.
+                  The download includes the complete source files including HTML,
+                  CSS, and JavaScript as well as optional LESS stylesheets for
+                  easy customization.
+                </div>
+               </div>
 
-              <div class="col-xs-12 col-md-4">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </div>
-
-              <div class="col-xs-12 col-md-4">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              <div class="col-xs-12 col-md-6">
+                <div class="ms_about_text">
+                  Whether you?re a student looking to showcase your work, a
+                  professional looking to attract clients, or a graphic artist
+                  looking to share your projects, this template is the perfect
+                  starting point!
+                </div>
               </div>
             </div>
           </div>
         </div>
 
+      </section>
 
+      <!-- End griglia img -->
+
+      <!-- Begin About -->
+      <!-- End About -->
+
+      <!-- Begin Contact -->
+    <section id="contact" class="ms_contact ms_section-secondary">
+      <div class="ms_wrapper-60">
+        <div class="container-fluid">
+          <div class="text-center">
+            <h2>Contact Me</h2>
+            <div class="ms_divider ms_section-star divider">
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+
+      <!-- Begin Form -->
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="ms_contact-form">
+              <form>
+              <div class="form-group">
+                <label for="" class="sr-only">Name</label>
+                <input type="email" class="form-control" placeholder="Name">
+              </div>
+              <div class="form-group">
+                <label for="" class="sr-only">Email address</label>
+                <input type="password" class="form-control" placeholder="Password">
+              </div>
+              <div class="form-group">
+                <label for="" class="sr-only">Phone number</label>
+                <input type="password" class="form-control" placeholder="Phone number">
+              </div>
+                <textarea class="form-control" rows="3"></textarea>
+                <button type="send" class="btn btn-default">Send</button>
+              </form>
+            </div>
+      <!-- End Form -->
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    </main>
+
+    <footer>
     <!-- Begin Company Info -->
-          <div class="comapany_credits"></div>
+          <div class="company_credits"></div>
+          <footer class="text-center">
+                <!-- Company Info -->
+                <div class="company_info">
+                  <div class="container">
+                    <div class="row">
 
-        </footer>
+                      <div class="col-xs-12 col-md-4">
+                        <h3 class="text-uppercase">LOCATION</h3>
+                        <p>2215 John Daniel Drive Clark, MO <br>65243</p>
+                      </div>
 
+                      <div class="col-xs-12 col-md-4">
+                        <h3>AROUND THE WEB</h3>
+                        <div class="social">
+
+                        </div>
+                      </div>
+
+                      <div class="col-xs-12 col-md-4">
+                        <h3>ABOUT FREELANCER</h3>
+                        <p>Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap.</p>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <!-- Fine Company Info -->
+
+                <!-- Company Credits -->
+                <div class="company_credits">
+                  <div class="container">
+                    <p>Copyright © Your Website 2020</p>
+                  </div>
+
+                </div>
+      <!-- Fine Company Credits -->
+    </footer>
+      <!-- End Footer -->
   </body>
 </html>

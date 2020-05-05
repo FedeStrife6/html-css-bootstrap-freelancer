@@ -1,11 +1,7 @@
-.primary_nav {
-  background-color: #2D3E50;
-  color: white;
-}
+ /* RULES */
 
-h1 {
+h1, h1, h3, h4, h5, h6 {
   text-transform: uppercase;
-  text-align: center;
 }
 
 h2 {
@@ -23,13 +19,40 @@ ul li a {
 }
 
 ul {
-
-}
-img {
+  margin:0;
 }
 
+.divider {
+  width: max-content;
+  margin: 0 auto;
+}
 
+.divider i {
+  margin: 15px;
+  font-size: 2.1em;
+  color: #2c3e50;
+}
 
+.divider::before,
+.divider::after {
+  content: "";
+  display: inline-block;
+  width: 70px;
+  height: 4px;
+  background-color: #2c3e50;
+  position: relative;
+  top: -9px;
+  border-radius: 4px;
+}
+
+.wrapper_70 {
+  width: 75%;
+  margin: 0 auto;
+}
+.primary_nav {
+background-color: #2D3E50;
+color: white;
+}
 
 /* Begin Sections */
 .ms-section {
@@ -44,9 +67,10 @@ img {
 .ms_intro img {
   width: 200px;
   height: 200px;
-  text-align: right;
+  margin-left: 475px;
 }
-.ms_section.ms_primary {
+
+.ms_primary {
   background-color: #1abc9b;
   color: white;
 }
@@ -55,6 +79,7 @@ img {
   background-color: white;
   color: black;
 }
+
 .ms_secondary .ms_star {
   color: #2D3E50;
   text-align: center;
@@ -64,12 +89,55 @@ img {
   text-align: center;
 }
 
-.ms_section_jumbo {
-  padding: 30px 0;
-}
-
 .ms_teaser {
   color: white;
 }
 
+ /* Jumbo */
+.ms_section_jumbo {
+  padding: 30px 0;
+}
+/* End Jumbo */
+
+/* Section Portfolio */
+.ms_portfolio_item {
+  height: 300px;
+  width: 300px;
+}
+
+.ms_portfolio_item img{
+  height: 200px;
+  width: 250px;
+  border-radius: 6px ;
+}
+
 /* End Sections*/
+
+/* Begin Footer */
+footer .footer-section {
+  padding: 40px 0;
+}
+footer .company_info {
+  background-color: #3a546c;
+  color: white;
+  padding: 80px 0;
+}
+
+footer .company_credits {
+  background-color: #2c3e50;
+  color: white;
+}
+
+.company_credits p {
+  margin-bottom: 0;
+  padding: 25px;
+}
+/* End Footer */
+
+/* Media Query */
+@media screen and (max-width: 768px) {
+
+  .logo {
+    font-size: 15px;
+  }
+}
