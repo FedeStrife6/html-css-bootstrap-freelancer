@@ -1,0 +1,75 @@
+.primary_nav {
+  background-color: #2D3E50;
+  color: white;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2 {
+  text-transform: uppercase;
+  color:white;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul li a {
+  color: white;
+  text-transform: uppercase;
+}
+
+ul {
+
+}
+img {
+}
+
+
+
+
+/* Begin Sections */
+.ms-section {
+  padding: 40px 0;
+}
+
+.ms_jumbo {
+  height: 400px;
+  background-color: #1abc9b;
+}
+
+.ms_intro img {
+  width: 200px;
+  height: 200px;
+  text-align: right;
+}
+.ms_section.ms_primary {
+  background-color: #1abc9b;
+  color: white;
+}
+
+.ms_secondary {
+  background-color: white;
+  color: black;
+}
+.ms_secondary .ms_star {
+  color: #2D3E50;
+  text-align: center;
+}
+
+.ms_section .ms_intro {
+  text-align: center;
+}
+
+.ms_section_jumbo {
+  padding: 30px 0;
+}
+
+.ms_teaser {
+  color: white;
+}
+
+/* End Sections*/
